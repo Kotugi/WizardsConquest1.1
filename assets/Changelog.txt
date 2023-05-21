@@ -1,0 +1,18 @@
+ 
+-------------------------------------------------
+CHANGE LOG (5/8/2023):                          |
+-------------------------------------------------
+-added projectiles and colission with the enemy that hit and get destroyed
+-removed certian console logs pertaining to the placement tiles.
+-changed enemy Shape to circles
+-updated the projectiles to execute update() instead of draw
+-Changed the for each loop for the projectiles to a traditional for loop for optimization
+-optimized enemy targeting
+-Added health bar to enemy
+-Added functionality to the health bar
+-Enemy now gets destroyed after health = 0
+--------------------------------------------------
+CHANGE LOG (5/9/2023)                            |
+--------------------------------------------------
+-Added a wave function to increment the amount of enemies that are spawned per wave.
+- Increased the count of enemies spawned per wave.
